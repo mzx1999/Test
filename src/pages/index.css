@@ -1,0 +1,152 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+}
+
+.welcome {
+  height: 310px;
+  background: url('../assets/beijing2.png') no-repeat;
+}
+
+.content{
+  width: 1200px;
+  height: 800px;
+  margin: 10px auto 250px auto;
+
+}
+
+.li{
+  width: 269px;
+  height: 366px;
+  margin-right: 29px;
+  margin-top: 52px;
+  float: left;
+  transition: all .1s;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(106, 106, 82, 0.09);
+}
+.li:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.top{
+  width: 100%;
+  height: 54%;
+  position: relative;
+
+}
+.cp{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.cp img{
+  width: 100%;
+}
+
+
+.dun img{
+  position: absolute;
+  width: 30px;
+  right: 1px;
+  bottom: -32px;
+}
+
+.bott{
+  margin: 10px;
+}
+.bott h4 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.title{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  height: 38px;
+  color:red;
+}
+
+.order1{
+  width: 100%;
+  height: 30px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+  margin-right: 10px;
+  color: #9e1d51;
+}
+.perpo{
+  color: #9e1d51;
+}
+span{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.order{
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #9E1D51;
+}
+.right1{
+  float: right;
+}
+
+.white{
+  display: inline-block;
+  min-width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background: #3DE26F;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+}
+
+.other{
+  display: inline-block;
+  min-width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background: #ccc;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+}
+
+.red{
+  display: inline-block;
+  min-width: 50px;
+  height: 20px;
+  border-radius: 4px;
+  background: #9e1d51;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+}
+
+
+
